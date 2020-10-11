@@ -11,13 +11,13 @@ import { ViewAllProductsComponent } from './view-all-products/view-all-products.
 import { ViewProductComponent } from './view-product/view-product.component';
 
 const routes: Routes = [
-  { path: '', component: ProductsComponent },
+  { path: '', component: ViewAllProductsComponent },
   {path:'create-product',component:CreateProductComponent},
   {path:'delete-product',component:DeleteProductComponent},
   {path:'update-product',component:UpdateProductsComponent},
   {path:'view-products-by-category',component:ViewAllProductsByCategoryComponent},
   {path:'view-product-by-date',component:ViewAllProductsByDateComponent},
-  {path:'view-all-product',component:ViewAllProductsComponent},
+  //{path:'view-all-product',component:ViewAllProductsComponent},
   {path:'view-product',component:ViewProductComponent}
 
 ];
